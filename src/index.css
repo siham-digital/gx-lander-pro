@@ -199,6 +199,18 @@
     min-height: 44px;
   }
 
+  .cta-trust-block {
+    @apply mt-2 md:mt-3 text-center max-w-sm mx-auto;
+  }
+
+  .cta-trust-text {
+    @apply text-xs text-muted-foreground/70 leading-tight;
+  }
+
+  .cta-disclaimer-text {
+    @apply text-xs text-muted-foreground/65 leading-tight mt-1;
+  }
+
   .disclaimer-text {
     @apply text-xs text-muted-foreground leading-relaxed;
   }

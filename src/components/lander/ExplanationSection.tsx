@@ -35,12 +35,7 @@ export function ExplanationSection() {
             </div>
           </div>
           
-          {/* Disclaimer */}
-          <p className="disclaimer-text mb-10">
-            * VPN feature availability and data limits may vary. Check official documentation for current terms.
-          </p>
-          
-          <CtaButton />
+          <CtaButton showTrust showVpnDisclaimer />
         </div>
       </div>
     </section>

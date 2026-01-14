@@ -49,7 +49,7 @@ export function TestimonialsSection() {
         </div>
         
         <div className="text-center">
-          <CtaButton />
+          <CtaButton showTrust />
         </div>
       </div>
     </section>

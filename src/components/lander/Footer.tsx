@@ -27,7 +27,7 @@ export function Footer() {
           <p className="section-subtitle mx-auto mb-8">
             Join millions of gamers who've made the switch.
           </p>
-          <CtaButton variant="large" />
+          <CtaButton variant="large" showTrust showVpnDisclaimer />
         </div>
         
         {/* Footer Links Accordion */}

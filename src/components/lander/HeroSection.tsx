@@ -42,12 +42,7 @@ export function HeroSection() {
               </li>
             </ul>
             
-            {/* Soft credibility */}
-            <p className="text-sm text-muted-foreground mb-8">
-              Trusted by millions of gamers worldwide
-            </p>
-            
-            <CtaButton />
+            <CtaButton showTrust />
           </div>
           
           {/* Hero Image */}

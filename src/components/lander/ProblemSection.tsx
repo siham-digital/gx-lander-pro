@@ -55,7 +55,7 @@ export function ProblemSection() {
         </div>
         
         <div className="text-center">
-          <CtaButton showTrust />
+          <CtaButton />
         </div>
       </div>
     </section>

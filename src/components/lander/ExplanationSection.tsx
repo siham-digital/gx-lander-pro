@@ -35,7 +35,7 @@ export function ExplanationSection() {
             </div>
           </div>
           
-          <CtaButton showTrust showVpnDisclaimer />
+          <CtaButton showVpnDisclaimer />
         </div>
       </div>
     </section>

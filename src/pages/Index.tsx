@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { StickyHeader } from "@/components/lander/StickyHeader";
+import { HeroSection } from "@/components/lander/HeroSection";
+import { ProblemSection } from "@/components/lander/ProblemSection";
+import { ExplanationSection } from "@/components/lander/ExplanationSection";
+import { TestimonialsSection } from "@/components/lander/TestimonialsSection";
+import { FaqSection } from "@/components/lander/FaqSection";
+import { Footer } from "@/components/lander/Footer";
+import { MobileStickyCta } from "@/components/lander/MobileStickyCta";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <StickyHeader />
+      <main>
+        <HeroSection />
+        <ProblemSection />
+        <ExplanationSection />
+        <TestimonialsSection />
+        <FaqSection />
+      </main>
+      <Footer />
+      <MobileStickyCta />
     </div>
   );
 };
